@@ -7,3 +7,12 @@ security:
 management:
   security:
     enabled: false # turn off securing the actuator endpoints
+
+spring:
+  application:
+    exchange: product.events.fanout.exchange
+    queue: event.stream
+    terminal: product.axon.terminal
+  jpa:
+    hibernate:
+      ddl-auto: create
