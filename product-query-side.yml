@@ -16,3 +16,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create
+
+logging:
+  level:
+    io:
+      benwilcock: DEBUG
