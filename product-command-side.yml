@@ -1,0 +1,22 @@
+message: Greetings from the PRODUCT-COMMAND-SIDE microservice [using the CONFIG SERVICE config].
+
+security:
+  basic:
+    enabled: false # turn off securing our application endpoints
+
+management:
+  security:
+    enabled: false # turn off securing the actuator endpointsß  
+
+spring:
+    application:
+        exchange: product.events.fanout.exchange
+        queue: product.default.queue
+        #databaseName: products
+        eventsCollectionName: events
+        snapshotCollectionName: snapshots
+
+logging:
+  level:
+    io:
+      benwilcock: DEBUG
