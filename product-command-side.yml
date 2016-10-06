@@ -10,8 +10,8 @@ management:
 
 spring:
     application:
-        exchange: product.events.fanout.exchange
-        queue: product.default.queue
+        exchange: product.events.exchange
+        queue: master.product.stream
     datasource:
       testWhileIdle: true
       validationQuery: SELECT 1

@@ -10,8 +10,8 @@ management:
 
 spring:
   application:
-    exchange: product.events.fanout.exchange
-    queue: event.stream
+    exchange: product.events.exchange
+    queue: materialised.view.stream
     terminal: product.axon.terminal
   jpa:
     hibernate:
