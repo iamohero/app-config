@@ -9,13 +9,14 @@ management:
     enabled: false # turn off securing the actuator endpoints
 
 spring:
-  application:
-    exchange: product.events.exchange
-    queue: materialised.view.stream
-    terminal: product.axon.terminal
   jpa:
     hibernate:
       ddl-auto: update
+
+query:
+  exchange: product.events.exchange
+  queue: materialised.view.stream
+  terminal: product.axon.terminal
 
 logging:
   level:
