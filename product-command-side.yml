@@ -9,9 +9,6 @@ management:
     enabled: false # turn off securing the actuator endpoints  
 
 spring:
-    application:
-        exchange: product.events.exchange
-        queue: master.product.stream
     datasource:
       testWhileIdle: true
       validationQuery: SELECT 1
@@ -24,6 +21,9 @@ spring:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.MySQL5Dialect
+command:
+  exchangeName: product.events.exchange
+  queueName: master.product.stream
 
 logging:
   level:
