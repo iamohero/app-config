@@ -21,6 +21,7 @@ spring:
       properties:
         hibernate:
           dialect: org.hibernate.dialect.MySQL5Dialect
+
 command:
   exchangeName: product.events.exchange
   queueName: master.product.stream
