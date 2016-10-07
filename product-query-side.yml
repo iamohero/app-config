@@ -14,9 +14,9 @@ spring:
       ddl-auto: update
 
 query:
-  exchange: product.events.exchange
-  queue: materialised.view.stream
-  terminal: product.axon.terminal
+  exchangeName: product.events.exchange
+  queueName: materialised.view.stream
+  terminalName: product.axon.terminal
 
 logging:
   level:
