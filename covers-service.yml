@@ -1,6 +1,6 @@
 cover:
   service:
-    cover-types: "no cover, auto cover, home cover, duvet cover"
+    cover-types: "no cover, auto cover, home cover, duvet cover, pool cover"
 
 management:
   security:
