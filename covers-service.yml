@@ -1,6 +1,7 @@
 cover:
   service:
     cover-types: "no cover, auto cover, home cover, duvet cover"
+    random-delay: false
 
 management:
   security:

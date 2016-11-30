@@ -1,0 +1,4 @@
+cover:
+  service:
+    failsafe
+      cover-types: Test Cover
