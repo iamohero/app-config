@@ -1,6 +1,6 @@
 cover:
   service:
-    cover-types: "no cover, auto cover, home cover, duvet cover"
+    cover-types: "No Cover, Auto Cover, Home Cover, Holiday Cover, Pet Cover, Duvet Cover"
     random-delay: false
 
 management:

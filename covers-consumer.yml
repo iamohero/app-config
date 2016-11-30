@@ -1,4 +1,8 @@
 cover:
   service:
-    failsafe
-      cover-types: Test Cover
+    failsafe:
+      cover-types: No Cover
+
+management:
+  security:
+    enabled: false
