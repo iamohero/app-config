@@ -1,5 +1,6 @@
 cover:
-  service:
+  consumer:
+    random-faults: true
     failsafe:
       cover-types: No Cover
 
