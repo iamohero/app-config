@@ -7,3 +7,9 @@ cover:
 management:
   security:
     enabled: false
+
+
+logging:
+  level:
+    io:
+      pivotalservices: DEBUG
