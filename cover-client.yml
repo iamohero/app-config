@@ -1,5 +1,7 @@
 cover:
-  consumer:
+  client:
+    coverServiceLogicalName: "COVER-SERVICE"
+    coverTypesEndpoint: "covers"
     random-faults: true
     failsafe:
       cover-types: "No Cover"
