@@ -14,3 +14,7 @@ spring:
     cache: false
 
 debug: false
+
+your:
+  host:
+    is: Ben
