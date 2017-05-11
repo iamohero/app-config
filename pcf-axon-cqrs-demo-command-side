@@ -1,1 +1,3 @@
-your.host.is: Ben
+your:
+  host:
+    is: Ben
