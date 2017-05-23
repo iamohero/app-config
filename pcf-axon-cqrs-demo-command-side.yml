@@ -6,6 +6,9 @@ axon:
     exchange: CatalogEvents
 
 spring:
+  datasource:
+    testWhileIdle: true
+    validationQuery: SELECT 1
   jpa:
     database:
     show-sql: true
