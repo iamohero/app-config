@@ -4,3 +4,21 @@ your:
 axon:
   amqp:
     exchange: CatalogEvents
+
+spring:
+  jpa:
+    database:
+    show-sql: true
+    hibernate:
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+    io:
+      pivotal: INFO
