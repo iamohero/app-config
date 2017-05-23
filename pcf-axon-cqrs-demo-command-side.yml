@@ -1,3 +1,6 @@
 your:
   host:
     is: Ben
+axon:
+  amqp:
+    exchange: CatalogEvents
