@@ -3,4 +3,8 @@ your:
     is: Aurora
 axon:
   amqp:
-    exchange=CatalogEvents
+    exchange: CatalogEvents
+  eventhandling:
+    processors:
+      amqpEvents:
+        source: complaintEvents
