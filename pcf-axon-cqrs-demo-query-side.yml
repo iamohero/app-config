@@ -8,3 +8,8 @@ axon:
     processors:
       amqpEvents:
         source: complaintEventsMethod
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
