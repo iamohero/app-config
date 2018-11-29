@@ -1,5 +1,3 @@
-server:
-  port: 8081
 cover:
   service:
     cover-types: "No Cover, Auto Cover, Home Cover, Holiday Cover, Pet Cover, Duvet Cover"
