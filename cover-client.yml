@@ -9,7 +9,11 @@ cover:
 management:
   security:
     enabled: false
-
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
 
 logging:
   level:
